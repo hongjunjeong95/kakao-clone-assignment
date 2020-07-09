@@ -30,12 +30,7 @@ a {
 }
 
 .wrapper {
-  width: 80%;
-  /* padding: 30px; */
+  width: 380px;
   border: none;
   border-radius: 30px;
-}
-
-.header {
-  /* height: 50vh; */
 }

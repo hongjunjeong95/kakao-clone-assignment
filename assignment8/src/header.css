@@ -1,6 +1,7 @@
 .header {
   border: 20px solid black;
   height: 100vh;
+  width: 483px;
 }
 
 .header__container {
