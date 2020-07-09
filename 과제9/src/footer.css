@@ -1,0 +1,15 @@
+.signIn__footer {
+  font-weight: 600;
+}
+
+.signIn__footer .footer__signUp {
+  margin-bottom: 7px;
+}
+
+.signIn__footer .signUp__question {
+  opacity: 0.5;
+}
+
+.signIn__footer .signUp__answer {
+  color: #e97a86;
+}

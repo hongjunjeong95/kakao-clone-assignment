@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotate-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.rotate-btn {
+  margin-bottom: 60px;
+  width: 300px;
+  height: 80px;
+  border: none;
+  border-radius: 20px;
+  background-color: #7f8c8d;
+  color: white;
+  font-weight: 600;
+
+  /* 새롭게 배운 것 */
+  outline: none;
+}
+
+.rotate-btn:active {
+  background-color: #95a5a6;
+
+  /* 새롭게 배운 것 */
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.rotate-img {
+  width: 270px;
+  height: 212px;
+
+  /* 새롭게 배운 것 */
+  transition: transform 0.3s ease-in;
+}
+
+/* 새롭게 배운 것 */
+.rotate-btn:active + .rotate-img {
+  transform: rotate(135deg) scale(0.7);
+  /* transform: scale(0.5); */
+  outline: 2px solid black;
+}

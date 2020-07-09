@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kokoa Tribe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+  </head>
+  <body class="body">
+    <div class="signIn">
+      <h1 class="signIn__title">Sign in</h1>
+      <form class="signIn__form form">
+        <input type="email" placeholder="email" class="form__email" />
+        <input type="password" placeholder="password" class="form__password" />
+        <a href="#" class="find-password__link">
+          <span class="form__find-password">Forgot Password?</span>
+        </a>
+        <span class="form__remember-me">
+          <input type="checkbox" id="form__checkbox" />
+          <label for="form__checkbox">Remember Me</label>
+          <!-- <i class="fas fa-check"></i> -->
+        </span>
+        <input type="submit" class="form__submit" value="Sign in" />
+      </form>
+      <span class="signIn__Or">OR</span>
+      <div class="signIn-oters">
+        <button class="signIn-oters__facebook" value="Facebook">
+          <i class="fab fa-facebook-square"></i>
+          Facebook
+        </button>
+        <button class="signIn-oters__twitter" value="Twitter">
+          <i class="fab fa-twitter-square"></i>
+          Twitter
+        </button>
+      </div>
+      <footer class="signIn__footer">
+        <div class="footer__signUp">
+          <span class="signUp__question">need an account?</span>
+          <a href="#" class="signUp__answer">Sign up</a>
+        </div>
+        <div class="footer__retrive">
+          <span class="signUp__question">forgot your password?</span>
+          <a href="#" class="signUp__answer">Retrive</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

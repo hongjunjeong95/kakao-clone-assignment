@@ -1,0 +1,38 @@
+.signIn-oters {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.signIn-oters button {
+  width: 40%;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.signIn-oters__facebook {
+  background-color: #475a95;
+  box-shadow: 2px 4px 0px 2px rgba(54, 70, 117, 1);
+}
+
+.signIn-oters__facebook:active {
+  box-shadow: inset 3px 3px 6px 6px #364675;
+}
+
+.signIn-oters__twitter {
+  box-shadow: 2px 4px 0px 2px rgba(88, 152, 230, 1);
+  background-color: rgb(93, 161, 242);
+}
+
+.signIn-oters__twitter:active {
+  box-shadow: inset 3px 3px 6px 6px #4d84c7;
+}
+
+.signIn-oters button i {
+  margin-right: 5px;
+}

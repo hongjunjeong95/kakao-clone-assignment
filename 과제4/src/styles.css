@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.blue-box {
+  background-color: #1e90ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.red-box {
+  background-color: #ff6b81;
+  width: 18%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grey-box {
+  background-color: #d8d8d8;
+  width: 30%;
+  height: 25%;
+}
+
+.grey-box:nth-child(2):hover {
+  background-color: #ff6b81;
+}
