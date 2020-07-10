@@ -1,0 +1,53 @@
+section .section__title {
+  margin-bottom: 15px;
+}
+
+.recipes {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+.recipes__recipe {
+  margin-bottom: 12px;
+  background-color: #eeeeff;
+  border-radius: 10px;
+}
+
+.recipe__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.recipe .recipe__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe__content .recipe__title {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.recipe__content .recipe__cnt {
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.recipe .recipe__icon {
+  color: #ff3232;
+}
+
+.recipe {
+  transition: transform 0.2s linear;
+}
+
+.recipe:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px 0px rgba(15, 15, 15, 0.5);
+}

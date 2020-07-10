@@ -1,0 +1,17 @@
+header {
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #353535c9;
+}
+
+header .header__title {
+  font-weight: 600;
+}
+
+header i {
+  /* font-size: ; */
+}

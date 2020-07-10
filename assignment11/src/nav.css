@@ -1,0 +1,23 @@
+.nav-bar {
+  background-color: #fff7f7;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-bar__btn {
+  padding: 0 31px;
+  padding-top: 30px;
+  opacity: 0.7;
+}
+
+.nav-bar__btn .active__icon {
+  color: #ff1515;
+}
+
+.nav-bar__btn i:hover {
+  color: #ff1515;
+}
