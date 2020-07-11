@@ -14,16 +14,16 @@ main .main__name {
 
 main .main__images {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
 .main__images .img {
-  width: 130px;
+  width: 48%;
   height: 100px;
-  margin: 5px;
+  margin-bottom: 10px;
   border-radius: 5px;
-
   display: flex;
   align-items: center;
   justify-content: center;
